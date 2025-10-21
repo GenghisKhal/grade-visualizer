@@ -13,7 +13,7 @@ A desktop application to track, manage, and visualize student grades with weight
 
 ### From Source
 ```bash
-git clone https://github.com/your-username/grade-visualizer.git
+git clone https://github.com/GenghisKhal/grade-visualizer.git
 cd grade-visualizer
 pip install -e .
 ```
