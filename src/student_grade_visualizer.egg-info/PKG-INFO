@@ -1,0 +1,35 @@
+Metadata-Version: 2.4
+Name: student-grade-visualizer
+Version: 0.1.0
+Summary: A GUI application to track and visualize student grades
+Author-email: Adi Zhanserik <adizhanserik98@gmail.com>
+License: MIT
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Classifier: Intended Audience :: Education
+Classifier: Topic :: Education
+Requires-Python: >=3.8
+Description-Content-Type: text/markdown
+Requires-Dist: matplotlib>=3.5.0
+Requires-Dist: platformdirs>=3.0.0
+Provides-Extra: dev
+Requires-Dist: pytest; extra == "dev"
+Requires-Dist: black; extra == "dev"
+Requires-Dist: flake8; extra == "dev"
+
+# Student Grade Visualizer
+
+A desktop application to track, manage, and visualize student grades with weighted categories.
+
+## Features
+- Add/remove courses
+- Add grade entries with earned/total points and weights
+- Real-time grade calculation
+- Interactive bar chart visualization
+- Automatic JSON data persistence
+
+## Installation
+
+```bash
+pip install student-grade-visualizer

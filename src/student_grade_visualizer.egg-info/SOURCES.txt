@@ -1,0 +1,11 @@
+README.md
+pyproject.toml
+src/grade_visualizer/__init__.py
+src/grade_visualizer/core.py
+src/grade_visualizer/gui.py
+src/student_grade_visualizer.egg-info/PKG-INFO
+src/student_grade_visualizer.egg-info/SOURCES.txt
+src/student_grade_visualizer.egg-info/dependency_links.txt
+src/student_grade_visualizer.egg-info/entry_points.txt
+src/student_grade_visualizer.egg-info/requires.txt
+src/student_grade_visualizer.egg-info/top_level.txt

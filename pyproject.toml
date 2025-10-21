@@ -1,0 +1,32 @@
+[build-system]
+requires = ["setuptools>=61.0", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "student-grade-visualizer"
+version = "0.1.0"
+description = "A GUI application to track and visualize student grades"
+readme = "README.md"
+authors = [{name = "Adi Zhanserik", email = "adizhanserik98@gmail.com"}]
+license = {text = "MIT"}
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "License :: OSI Approved :: MIT License",
+    "Operating System :: OS Independent",
+    "Intended Audience :: Education",
+    "Topic :: Education"
+]
+requires-python = ">=3.8"
+dependencies = [
+    "matplotlib>=3.5.0",
+    "platformdirs>=3.0.0",
+]
+
+[project.optional-dependencies]
+dev = ["pytest", "black", "flake8"]
+
+[project.scripts]
+grade-visualizer = "grade_visualizer.gui:main"
+
+[tool.setuptools.packages.find]
+where = ["src"]
